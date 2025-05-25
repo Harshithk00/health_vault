@@ -74,17 +74,17 @@ const App = () => {
       <Routes>  
         <Route path="/" element={<HomePage/>}/>
         <Route path="/ai-bot" element={<Aibot />} />
-        <Route path="/contact" element={<HomePage />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/profile" element={<Dashboard />} />
-        <Route path="/appointment" element={<appointment/>} />
-        <Route path="/video-call" element={<HomePage />} />
+        <Route path="/appointment" element={<Booking />} />
+        <Route path="/video-call" element={<VideoCall />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/patient" element={<PatientForm />} />
         {/* <Route path="/video-call" element={<VideoCall />} /> */}
         <Route path="/doctor" element={<DocDash />} />
         <Route path="/leave" element={<MedicalLeave />} />
-        <Route path="/certificate" element={<cer />} />
+        <Route path="/certificate" element={<Certificate />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/health-record-concern" element={<Healthchat />} />
