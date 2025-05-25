@@ -34,7 +34,7 @@ export default function Voice() {
     setLoading(true);
     setStatus('Submitting your appointment…');
     try {
-      // In a real scenario you’d send the collected data as POST body or query params.
+      // In a real scenario you'd send the collected data as POST body or query params.
       // Your backend function would need to be modified to use these values.
       const response = await axios.get('http://localhost:5000/book-appointment', {
         params: { doctor_name: doctorName, purpose, date, time },
@@ -154,7 +154,7 @@ export default function Voice() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6">
-      <h1 className="text-4xl font-bold text-green-700 mb-6">Aarogya Mitra</h1>
+      <h1 className="text-4xl font-bold text-green-700 mb-6">Health Mitra</h1>
 
       {/* Mode Toggle */}
       <div className="mb-6">
@@ -182,7 +182,7 @@ export default function Voice() {
       {mode === 'voice' ? (
         <div className="flex flex-col items-center">
           <p className="text-green-800 mb-4 text-center max-w-md">
-            Use your voice to interact with Aarogya Mitra for booking appointments and applying for leave.
+            Use your voice to interact with Health Mitra for booking appointments and applying for leave.
           </p>
           <button
             onClick={handleVoiceCommand}

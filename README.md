@@ -1,4 +1,4 @@
-# Arogya Vault - Digital Healthcare Management System for Educational Institutions
+# Health Vault - Digital Healthcare Management System for Educational Institutions
 
 "The absence of a centralized healthcare management system in educational institutions for managing student health records leads to delays in processing medical leave requests and restricted access to student health records. This impacts timely decision-making and efficient healthcare service delivery."
 

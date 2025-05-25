@@ -7,7 +7,7 @@ const HeroSection = () => {
         {/* Text Content */}
         <div className="lg:w-1/2 text-left">
           <h1 className="text-green-700 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-thin mb-4 sm:mb-6 leading-snug lg:leading-tight">
-            Effortless Student Healthcare Management – Securely Store, Access & Manage Medical Records with Arogya Vault.
+            Effortless Student Healthcare Management – Securely Store, Access & Manage Medical Records with Health Vault.
           </h1>
           <p className="text-gray-700 text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 leading-relaxed lg:leading-loose">
             Your Health, Your Vault – Instantly access, manage, and secure student medical records with ease.
