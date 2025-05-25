@@ -76,7 +76,7 @@ const App = () => {
         <Route path="/ai-bot" element={<Aibot />} />
         <Route path="/contact" element={<HomePage />} />
         <Route path="/profile" element={<Dashboard />} />
-        <Route path="/appointment" element={<HomePage/>} />
+        <Route path="/appointment" element={<appointment/>} />
         <Route path="/video-call" element={<HomePage />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
@@ -84,7 +84,7 @@ const App = () => {
         {/* <Route path="/video-call" element={<VideoCall />} /> */}
         <Route path="/doctor" element={<DocDash />} />
         <Route path="/leave" element={<MedicalLeave />} />
-        <Route path="/certificate" element={<HomePage />} />
+        <Route path="/certificate" element={<cer />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/health-record-concern" element={<Healthchat />} />
