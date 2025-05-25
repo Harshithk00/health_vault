@@ -5,29 +5,33 @@ const teamMembers = [
     name: "Harshit Kumar",
     // role: "UI/UX Designer/AI lead",
     // experience: "AI Enthusiast , Hackathon finalist ",
-    // image: "/./src/assets/"
+    // image: "/./src/assets/Screenshot 2025-03-11 205754.png"
   },
   {
-    name: "Himalay ",
+    name: "Himalay Singh",
     // role: "Backend Lead",
     // experience: "Backend Expert , Blockchain Enthusiast ",
-    // image: "./src/assets/"
+    // image: "./src/assets/aadi.jpg"
   },
   {
     name: "Yuvraj Singh",
     // role: "Backend Lead",
     // experience: "Student || Exploring, Observing, Learning ||",
-    // image: "./src/assets/"
+    // image: "./src/assets/Vaibhav.jpg"
   },
-
+ 
 
 ];
 
 const TeamSection = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6 md:px-12">
-      <h1 className="text-center text-2xl md:text-4xl lg:text-5xl text-green-500 font-light leading-relaxed tracking-wide">PEOPLE BEHIND AROGYA VAULT </h1>
-      <p className="text-center text-gray-700 mb-8">Meet the skilled and experienced team behind our successful medical app</p>
+      <div className="w-full bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8">
+        <div className="max-w-4xl mx-auto text-center space-y-4 sm:space-y-6 md:space-y-8">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-black-500 font-light leading-relaxed tracking-wide">PEOPLE BEHIND HEALTH VAULT </h1>
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-800 font-medium leading-relaxed tracking-wide max-w-3xl mx-auto">Meet the skilled and experienced team behind our successful medical app</p>
+        </div>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {teamMembers.map((member, index) => (
           <div 
